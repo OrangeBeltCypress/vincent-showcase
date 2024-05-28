@@ -1,0 +1,56 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+    font-family: serif;
+}
+
+.header{
+    min-height:9vmin ;
+    background-color: pink;
+    display: flex;
+}
+
+.projects, .about{
+    margin-right: 10vmin;
+    text-decoration: none;
+}
+
+a{
+    color:black; 
+    font-size: 3vmin; 
+}
+
+
+.links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+    max-height: 10vmin;
+    margin: 0.5vmin;
+}
+
+img{
+    max-height: 50%;
+    max-height: 40vmin; 
+}
+
+.project1, .project2, .project3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    margin-bottom: 10vmin;
+    margin-top: 10vmin; 
+
+    padding-top: 3vmin;
+    padding-bottom: 3vmin;
+    margin-right: 20vmin;
+    margin-left: 20vmin;
+    border-radius:7vmin;
+}
